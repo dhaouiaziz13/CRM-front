@@ -27,9 +27,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "craco  --openssl-legacy-provider start",
+    "start": "craco   start",
     "start:dev": "cross-env REACT_APP_DEV_REMOTE=remote npm start",
-    "build": "craco --openssl-legacy-provider build",
+    "build": "craco  build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
